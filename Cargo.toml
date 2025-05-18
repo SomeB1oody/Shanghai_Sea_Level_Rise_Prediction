@@ -1,0 +1,9 @@
+[package]
+name = "bio"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ndarray = "0.16.1"
+rustyml = "0.6.0"
+polars = { version="0.47.1", features = ["ndarray"] }
